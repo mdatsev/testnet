@@ -2,7 +2,7 @@ import { useEffect, useRef, useState } from 'react';
 
 import './Roadmap.scss';
 
-import video1 from '../../assets/videos/Roadmap/10.mp4';
+import video1 from 'https://buffdogestorage.s3.eu-central-1.amazonaws.com/10.webm';
 import video2 from '../../assets/videos/Roadmap/25.mp4';
 import video3 from '../../assets/videos/Roadmap/50.mp4';
 import video4 from '../../assets/videos/Roadmap/75.mp4';

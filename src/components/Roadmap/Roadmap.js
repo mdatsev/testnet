@@ -8,24 +8,24 @@ import video3 from '../../assets/videos/Roadmap/50.mp4';
 import video4 from '../../assets/videos/Roadmap/75.mp4';
 import video5 from '../../assets/videos/Roadmap/100.webm';
 
-import roadmap1 from '../../assets/img/roadmap/10_.png';
-import roadmap2 from '../../assets/img/roadmap/25_.png';
-import roadmap3 from '../../assets/img/roadmap/50_.png';
-import roadmap4 from '../../assets/img/roadmap/75_.png';
-import roadmap5 from '../../assets/img/roadmap/100_.png';
+import roadmap1 from '../../assets/img/roadmap/10_0.75x.png';
+import roadmap2 from '../../assets/img/roadmap/Layer 10.75x.png';
+import roadmap3 from '../../assets/img/roadmap/50_0.75x.png';
+import roadmap4 from '../../assets/img/roadmap/750.5x.png';
+import roadmap5 from '../../assets/img/roadmap/100_0.5x.png';
 
-import Rocket from '../../assets/img/roadmap/Rocket.png';
-import Base from '../../assets/img/roadmap/Base.png';
+import Rocket from '../../assets/img/roadmap/Rocket0.5x.png';
+import Base from '../../assets/img/roadmap/Base0.5x.png';
 
-import photo1 from '../../assets/img/roadmap/Owl.png';
-import photo2 from '../../assets/img/roadmap/Cat.png';
-import photo3 from '../../assets/img/roadmap/Unicorn.png';
+import photo1 from '../../assets/img/roadmap/Owl2.png';
+import photo2 from '../../assets/img/roadmap/Cat2.png';
+import photo3 from '../../assets/img/roadmap/Unicorn2.png';
 
-import side1 from '../../assets/img/roadmap/1.gif';
-import side2 from '../../assets/img/roadmap/2.gif';
-import side3 from '../../assets/img/roadmap/3.gif';
-import side4 from '../../assets/img/roadmap/4.gif';
-import side5 from '../../assets/img/roadmap/5.gif';
+import side1 from '../../assets/img/roadmap/Game.webm';
+import side2 from '../../assets/img/roadmap/Eth.webm';
+import side3 from '../../assets/img/roadmap/Brain.webm';
+import side4 from '../../assets/img/roadmap/vr man.webm';
+import side5 from '../../assets/img/roadmap/Compass.webm';
 
 export const Roadmap = () => {
     const videoWrapperRef = useRef(false);

@@ -4,8 +4,8 @@ import './Roadmap.scss';
 
 import video1 from '../../assets/videos/Roadmap/10.webm';
 import video2 from '../../assets/videos/Roadmap/25.webm';
-import video3 from '../../assets/videos/Roadmap/50.webm';
-import video4 from '../../assets/videos/Roadmap/75.webm';
+import video3 from '../../assets/videos/Roadmap/50.mp4';
+import video4 from '../../assets/videos/Roadmap/75.mp4';
 import video5 from '../../assets/videos/Roadmap/100.webm';
 
 import roadmap1 from '../../assets/img/roadmap/10_.png';

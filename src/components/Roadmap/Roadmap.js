@@ -168,7 +168,7 @@ export const Roadmap = () => {
                         -Multiple games, one place.
                     </p>
                     <div className="roadmap__content__item__sidePic right">
-                        <img alt="pic" src={side1}></img>
+                        <video alt="pic" src={side1}></video>
                     </div>
                 </div>
                 <div className="roadmap__content__item">
@@ -177,7 +177,7 @@ export const Roadmap = () => {
                     <p>Free minting for Buff Doge owners.<br/>Buff Doge owners will only be able to free mint two of each buff category.</p>
 
                     <div className="roadmap__content__item__sidePic top phase3">
-                        <img alt="pic" src={side2}></img>
+                        <video alt="pic" src={side2}></video>
                     </div>
 
                     <div className="roadmap__content__item__photos">

@@ -5,7 +5,7 @@ export const Vision = () => {
     return (
         <section className="vision" id="vision">
             <div className="vision__character">
-                <video autoPlay loop muted alt="pic" src={animation}></video>
+                <video autoPlay loop muted width="550" height="550" alt="pic" src={animation}></video>
             </div>
 
             <div className="vision__content">

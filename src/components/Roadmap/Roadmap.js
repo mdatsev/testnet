@@ -2,11 +2,11 @@ import { useEffect, useRef, useState } from 'react';
 
 import './Roadmap.scss';
 
-import video1 from '../../assets/videos/Roadmap/10.webm';
-import video2 from '../../assets/videos/Roadmap/25.webm';
+import video1 from '../../assets/videos/Roadmap/10.mp4';
+import video2 from '../../assets/videos/Roadmap/25.mp4';
 import video3 from '../../assets/videos/Roadmap/50.mp4';
 import video4 from '../../assets/videos/Roadmap/75.mp4';
-import video5 from '../../assets/videos/Roadmap/100.webm';
+import video5 from '../../assets/videos/Roadmap/100.mp4';
 
 import roadmap1 from '../../assets/img/roadmap/10_0.75x.png';
 import roadmap2 from '../../assets/img/roadmap/Layer 10.75x.png';

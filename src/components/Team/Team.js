@@ -55,7 +55,7 @@ export const Team = () => {
         <section className="team" id="team">
             <div className="team__title">
                 <div className="team__title__anim">
-                    <video autoPlay loop muted width="150" height="150" src={teamLogo} alt="pic"></video>
+                    <video autoPlay loop muted width="210" height="210" src={teamLogo} alt="pic"></video>
                 </div>
 
                 <div className="team__title__text">

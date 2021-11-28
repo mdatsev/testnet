@@ -1,11 +1,11 @@
 import './Vision.scss';
-import animation from '../../assets/img/1st-character.gif';
+import animation from '../../assets/videos/Character 2_1.webm';
 
 export const Vision = () => {
     return (
         <section className="vision" id="vision">
             <div className="vision__character">
-                <img alt="pic" src={animation}></img>
+                <video autoPlay loop muted alt="pic" src={animation}></video>
             </div>
 
             <div className="vision__content">

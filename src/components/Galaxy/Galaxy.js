@@ -17,7 +17,7 @@ export const Galaxy = () => {
             </div> 
            
             <div className="galaxy__character">
-                <video autoPlay loop muted width="800" height="800" alt="pic" src={animation}></video>
+                <video autoPlay loop muted width="500" height="500" alt="pic" src={animation}></video>
             </div>
         </section>
     )

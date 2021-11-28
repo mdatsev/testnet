@@ -2,7 +2,7 @@ import {useEffect} from 'react';
 
 import './Intro.scss';
 
-import intro_video from '../../assets/videos/web main page.webm';
+import intro_video from '../../assets/videos/web main page_1 (1).mp4';
 import mobile_video from '../../assets/videos/phone first page.webm';
 import bottom from '../../assets/img/introBottom.svg';
 

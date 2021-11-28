@@ -168,7 +168,7 @@ export const Roadmap = () => {
                         -Multiple games, one place.
                     </p>
                     <div className="roadmap__content__item__sidePic right">
-                        <video autoPlay loop muted alt="pic" src={side1}></video>
+                        <video autoPlay loop muted width="550" height="550" alt="pic" src={side1}></video>
                     </div>
                 </div>
                 <div className="roadmap__content__item">
@@ -177,7 +177,7 @@ export const Roadmap = () => {
                     <p>Free minting for Buff Doge owners.<br/>Buff Doge owners will only be able to free mint two of each buff category.</p>
 
                     <div className="roadmap__content__item__sidePic top phase3">
-                        <video autoPlay loop muted alt="pic" src={side2}></video>
+                        <video autoPlay loop muted width="550" height="550" alt="pic" src={side2}></video>
                     </div>
 
                     <div className="roadmap__content__item__photos">
@@ -200,7 +200,7 @@ export const Roadmap = () => {
                     <p>Help talented people to reach their dreams.<br/>50% of profits will be given away to community-voted charities.</p>
 
                     <div className="roadmap__content__item__sidePic right">
-                        <video autoPlay loop muted alt="pic" src={side3}></video>
+                        <video autoPlay loop muted width="550" height="550" alt="pic" src={side3}></video>
                     </div>
                 </div>
                 <div className="roadmap__content__item">
@@ -209,7 +209,7 @@ export const Roadmap = () => {
                     <p>Release Date: TBD…</p>
 
                     <div className="roadmap__content__item__sidePic">
-                        <video autoPlay loop muted alt="pic" src={side4}></video>
+                        <video autoPlay loop muted width="550" height="550" alt="pic" src={side4}></video>
                     </div>
                 </div>
                 <div className="roadmap__content__item">
@@ -218,7 +218,7 @@ export const Roadmap = () => {
                     <p>Future steps will be decided together with our community</p>
 
                     <div className="roadmap__content__item__sidePic right">
-                        <video autoPlay loop muted alt="pic" src={side5}></video>
+                        <video autoPlay loop muted width="550" height="550" alt="pic" src={side5}></video>
                     </div>
                 </div>
             </div>

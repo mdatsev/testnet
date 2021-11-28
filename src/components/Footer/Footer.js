@@ -1,8 +1,8 @@
 import { Link } from 'react-scroll'
 
 import './Footer.scss';
-import bannerBack from '../../assets/img/banner_back.png';
-import bannerBot from '../../assets/img/banner_bot.png';
+import bannerBack from '../../assets/img/Bot Banner0.75x.png';
+import bannerBot from '../../assets/img/bot character0.5x.png';
 
 import logoIcon from '../../assets/img/icons/logo.svg';
 import twitterIcon from '../../assets/img/icons/twitter.svg';

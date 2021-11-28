@@ -1,5 +1,5 @@
 import './Galaxy.scss';
-import animation from '../../assets/Videos/Character 1_1.webm';
+import animation from '../../assets/videos/Character 1_1.webm';
 
 export const Galaxy = () => {
     return (

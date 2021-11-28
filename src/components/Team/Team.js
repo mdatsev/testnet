@@ -1,12 +1,12 @@
 import './Team.scss';
 
-import teamLogo from '../../assets/img/ezgif.com-gif-maker_3.gif';
-import team1 from '../../assets/img/team/1.png';
-import team2 from '../../assets/img/team/2.png';
-import team3 from '../../assets/img/team/3.png';
-import team4 from '../../assets/img/team/4.png';
-import team5 from '../../assets/img/team/5.png';
-import team6 from '../../assets/img/team/6.png';
+import teamLogo from '../../assets/videos/Logo.webm';
+import team1 from '../../assets/img/team/Alpha.png';
+import team2 from '../../assets/img/team/Samer.png';
+import team3 from '../../assets/img/team/Rashid.png';
+import team4 from '../../assets/img/team/Dagmus.png';
+import team5 from '../../assets/img/team/Naji.png';
+import team6 from '../../assets/img/team/Monir.png';
 
 import birdIcon from '../../assets/img/icons/bird.svg';
 import birdBlue from '../../assets/img/icons/bird_blue.svg';
@@ -55,7 +55,7 @@ export const Team = () => {
         <section className="team" id="team">
             <div className="team__title">
                 <div className="team__title__anim">
-                    <img src={teamLogo} alt="pic"></img>
+                    <video autoPlay loop muted src={teamLogo} alt="pic"></video>
                 </div>
 
                 <div className="team__title__text">

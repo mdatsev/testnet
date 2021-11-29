@@ -24,7 +24,7 @@ import photo3 from '../../assets/img/roadmap/Unicorn2.png';
 import side1 from '../../assets/img/roadmap/Game.mp4';
 import side2 from '../../assets/img/roadmap/Eth.mp4';
 import side3 from '../../assets/img/roadmap/Brain.mp4';
-import side4 from '../../assets/img/roadmap/vr man.mp4';
+import side4 from '../../assets/img/roadmap/Vr Man.mp4';
 import side5 from '../../assets/img/roadmap/Compass.mp4';
 
 export const Roadmap = () => {

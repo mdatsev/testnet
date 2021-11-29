@@ -8,11 +8,11 @@ import video3 from '../../assets/videos/Roadmap/50.mp4';
 import video4 from '../../assets/videos/Roadmap/75.mp4';
 import video5 from '../../assets/videos/Roadmap/100.mp4';
 
-import roadmap1 from '../../assets/img/roadmap/10_0.75x.png';
-import roadmap2 from '../../assets/img/roadmap/Layer 10.75x.png';
-import roadmap3 from '../../assets/img/roadmap/50_0.75x.png';
-import roadmap4 from '../../assets/img/roadmap/750.5x.png';
-import roadmap5 from '../../assets/img/roadmap/100_0.5x.png';
+import roadmap1 from '../../assets/img/roadmap/10.png';
+import roadmap2 from '../../assets/img/roadmap/25.png';
+import roadmap3 from '../../assets/img/roadmap/50.png';
+import roadmap4 from '../../assets/img/roadmap/75_.png';
+import roadmap5 from '../../assets/img/roadmap/100.png';
 
 import Rocket from '../../assets/img/roadmap/Rocket0.5x.png';
 import Base from '../../assets/img/roadmap/Base0.5x.png';

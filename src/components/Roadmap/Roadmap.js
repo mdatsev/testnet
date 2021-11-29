@@ -21,11 +21,11 @@ import photo1 from '../../assets/img/roadmap/Owl2.png';
 import photo2 from '../../assets/img/roadmap/Cat2.png';
 import photo3 from '../../assets/img/roadmap/Unicorn2.png';
 
-import side1 from '../../assets/img/roadmap/Game.webm';
-import side2 from '../../assets/img/roadmap/Eth.webm';
-import side3 from '../../assets/img/roadmap/Brain.webm';
-import side4 from '../../assets/img/roadmap/vr man.webm';
-import side5 from '../../assets/img/roadmap/Compass.webm';
+import side1 from '../../assets/img/roadmap/Game.mp4';
+import side2 from '../../assets/img/roadmap/Eth.mp4';
+import side3 from '../../assets/img/roadmap/Brain.mp4';
+import side4 from '../../assets/img/roadmap/vr man.mp4';
+import side5 from '../../assets/img/roadmap/Compass.mp4';
 
 export const Roadmap = () => {
     const videoWrapperRef = useRef(false);

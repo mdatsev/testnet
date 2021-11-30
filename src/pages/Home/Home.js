@@ -20,7 +20,9 @@ export const Home = () => {
         <h1  style={{color: "red"}} >A Blue HA Blue HeadingA Blue HeadingA 
         Blue 
         HeadingA Blue HeadingA Blue HeadingA Blue HeadingA Blue HeadingA Blue HeadingA Blue HeadingeadingA Blue HeadingA Blue HeadingA Blue HeadingA Blue HeadingA Blue HeadingA Blue HeadingA Blue HeadingA Blue HeadingA Blue Heading</h1>
-        <div className="home">
+  </div>       
+
+<div className="home">
 
         
 
@@ -35,7 +37,7 @@ export const Home = () => {
             <Footer />
         </div>
         
-        </div>
+      
     )
 }
 

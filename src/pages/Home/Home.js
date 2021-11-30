@@ -13,6 +13,19 @@ import Footer from '../../components/Footer/Footer';
 export const Home = () => {
     return (
         
+          <div className="home">
+            <NavBar />
+            <Intro />
+            <Slider />
+            <Galaxy />
+            <Vision />
+            <Roadmap />
+            <Team />
+            <FaqComponent />
+            <Footer />
+        </div>
+        
+        
         
         <div className="home">
             <NavBar />

@@ -13,12 +13,12 @@ import Footer from '../../components/Footer/Footer';
 export const Home = () => {
     return (
 
-             <div class="myDiv">
-  <h2>This is a heading in a div element</h2>
+
+        <div className="home">
+       <div class="myDiv">
+  <h2>This is a headingThis is a headingThis is a headingThis is a headingThis is a headingThis is a headingThis is a headingThis is a headingThis is a headingThis is a headingThis is a headingThis is a headingThis is a headingThis is a headingThis is a headingThis is a headingThis is a headingThis is a heading</h2>
   <p>This is some text in a div element.</p>
 </div>
-        
-        <div className="home">
         
 
             <NavBar />

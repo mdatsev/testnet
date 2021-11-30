@@ -20,7 +20,7 @@ export const Home = () => {
               
         <div class="elaf">
         
-        <h1  style={{color: "red" , position: 'relative', zIndex: '0' }} >A Blue HA Blue HeadingA Blue HeadingA 
+        <h1  style={{color: "red" , position: 'relative', zIndex: '999999999989999999' }} >A Blue HA Blue HeadingA Blue HeadingA 
         Blue 
         HeadingA Blue HeadingA Blue HeadingA Blue HeadingA Blue HeadingA Blue HeadingA Blue HeadingeadingA Blue HeadingA Blue HeadingA Blue HeadingA Blue HeadingA Blue HeadingA Blue HeadingA Blue HeadingA Blue HeadingA Blue Heading</h1>
       

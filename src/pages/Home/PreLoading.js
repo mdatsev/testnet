@@ -1,15 +1,10 @@
-import animation from '../../assets/img/team/Monir.png';
+import logo  from '../../assets/img/team/Monir.png';
+import React from 'react';
 import side1 from '../../assets/img/roadmap/Game.mp4';
   const Loading = () =>{
     return (
   
-     <div className="home">
-            <animation
-                height={100}
-                width={100}
-                timeout={3000} //3 secs
-          />
-        </div>
+    <img src={logo} alt="Logo" />;
 
   
     )

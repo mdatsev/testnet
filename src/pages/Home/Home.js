@@ -15,9 +15,7 @@ export const Home = () => {
 
 
           <div class="elaf"  style={{
-        backgroundColor: 'blue',
-        width: '100px',
-        height: '100px', zIndex: '222222220' }} >
+        backgroundColor: 'blue', zIndex: '222222220' }} >
         
             
 <div className="home" style={{zIndex: '11' }}>

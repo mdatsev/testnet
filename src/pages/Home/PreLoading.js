@@ -1,4 +1,4 @@
-import animation from '../../assets/videos/Character-2.mp4';
+import animation from '../../assets/videos/loading (1).webm';
   const Loading = () =>{
     return (
       <div align='center'>

@@ -20,7 +20,7 @@ useEffect(() => {
 
 	  {isLoading && (
 	  <div className="profile" align='center'style={{backgroundColor: 'blue', width: '100px', height: '100px'}}>
-	  <img src={logo} />
+	  <h3> Mohammad</h3>
 	 </div>
 	  )}
 	  

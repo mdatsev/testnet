@@ -1,4 +1,4 @@
-import animation from '../../assets/videos/loading (1).webm';
+import animation from '../../assets/img/team/Monir.png';
   const Loading = () =>{
     return (
       <div align='center'>

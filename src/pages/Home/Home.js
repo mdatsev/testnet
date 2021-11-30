@@ -12,19 +12,12 @@ import Footer from '../../components/Footer/Footer';
 
 export const Home = () => {
     return (
-        
-      <style>
-.myDiv {
-  border: 5px outset red;
-  background-color: lightblue;
-  text-align: center;
-}
-</style>
+
         
         
         <div className="home">
         
-     <div class="myDiv">
+     <div class="myDiv"  style=" background-color: green; height: 200px;   width: 50%;">
   <h2>This is a heading in a div element</h2>
   <p>This is some text in a div element.</p>
 </div>

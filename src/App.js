@@ -1,5 +1,6 @@
 import './App.scss';
 import Home from './pages/Home/Home';
+import logo  from '../../assets/img/team/Monir.png';
 import preLoading from './pages/Home/PreLoading';
 import React, {useState, useEffect} from 'react';
 
@@ -17,7 +18,7 @@ useEffect(() => {
   return (
    <div className="App">
 {isLoading==true?
- <preLoading />:
+  <img src={logo}/>:
  <Home />
 }   
 

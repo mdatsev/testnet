@@ -4,8 +4,7 @@ import side1 from '../../assets/img/roadmap/Game.mp4';
   const Loading = () =>{
     return (
   
-    <img src={logo} alt="Logo" />;
-
+    <img src={logo}/>
   
     )
   }

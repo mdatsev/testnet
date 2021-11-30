@@ -13,7 +13,13 @@ import Footer from '../../components/Footer/Footer';
 export const Home = () => {
     return (
         
-      
+      <style>
+.myDiv {
+  border: 5px outset red;
+  background-color: lightblue;
+  text-align: center;
+}
+</style>
         
         
         <div className="home">

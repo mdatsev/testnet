@@ -19,7 +19,7 @@ useEffect(() => {
    <div className="App">
 
 	  {isLoading && (
-	  <div class="Loader" align = "center">
+	  <div class="Loader">
 	  <img src={logo}/>
 	 </div>
 	  )}

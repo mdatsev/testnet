@@ -15,10 +15,10 @@ export const Home = () => {
 
 
           <div class="elaf"  style={{
-        backgroundColor: 'blue', zIndex: '222222220' }} >
+        backgroundColor: 'blue', zIndex: '20' }} >
         
             
-<div className="home" style={{zIndex: '11' }}>
+<div className="home" >
 
             
             <NavBar />

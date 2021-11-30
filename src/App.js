@@ -11,7 +11,7 @@ useEffect(() => {
 		
 		setIsLoading(false);
 	
-	},2500);
+	},5000);
 })
 	
   return (

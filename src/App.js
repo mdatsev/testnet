@@ -21,7 +21,7 @@ useEffect(() => {
 	  {isLoading && (
 	  
 	  
-	<div style={{justifyContent:'center', alignItems:'center' , display:'flex'}} align="center" className="center">
+	<div style={{justifyContent:'center', alignItems:'center' , display:'flex' , height: '100vh'}} align="center" className="center">
 	  <img style={{width:'250px' , height:'250px'}} src={logo}/>
 	
 	  </div>

@@ -16,7 +16,9 @@ export const Home = () => {
 
         
         <div class="elaf">
-        
+        <h2>hsuiahfiashgisadhghsuiahfiashgisadhghsuiahfiashgisad
+        hsuiahfiashgisadhghsuiahfiashgisadhghsuiahfiashgisadhghsuiahfiashgisadhghsuiahfiashgisadhg
+        hghsuiahfiashgisadhghsuiahfiashgisadhghsuiahfiashgisadhghsuiahfiashgisadhghsuiahfiashgisadhghsuiahfiashgisadhg</h2>
         <div className="home">
 
         

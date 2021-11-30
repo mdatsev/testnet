@@ -19,8 +19,8 @@ useEffect(() => {
    <div className="App">
 
 	  {isLoading && (
-	  <div class="Loader">
-	  <img class="LoaderImg" src={logo}/>
+	  <div className="Loader">
+	  <img src={logo}/>
 	 </div>
 	  )}
 	  

@@ -19,7 +19,7 @@ useEffect(() => {
    <div className="App">
 
 	  {isLoading && (
-	  <div className="profile" align='center'style={{backgroundColor: 'blue', width: '100px', height: '100px'}}>
+	  <div align="center">
 	  <img src={logo}/>
 	 </div>
 	  )}

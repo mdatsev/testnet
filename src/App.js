@@ -15,7 +15,7 @@ useEffect(() => {
    <div>
 {isLoading==true?
  <PreLoading />:
- <<Home />
+ <Home />
 	   
 	   
 </div>

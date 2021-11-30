@@ -14,11 +14,11 @@ export const Home = () => {
     return (
 
 
+        
+        <div class="elaf">
+        
         <div className="home">
-       <div class="myDiv">
-  <h2>This is a headingThis is a headingThis is a headingThis is a headingThis is a headingThis is a headingThis is a headingThis is a headingThis is a headingThis is a headingThis is a headingThis is a headingThis is a headingThis is a headingThis is a headingThis is a headingThis is a headingThis is a heading</h2>
-  <p>This is some text in a div element.</p>
-</div>
+
         
 
             <NavBar />
@@ -30,6 +30,8 @@ export const Home = () => {
             <Team />
             <FaqComponent />
             <Footer />
+        </div>
+        
         </div>
     )
 }

@@ -1,4 +1,5 @@
 import './App.scss';
+import logo from './Unicorn.png'
 import Home from './pages/Home/Home';
 import preLoading from './pages/Home/PreLoading';
 import React, {useState, useEffect} from 'react';
@@ -19,7 +20,7 @@ useEffect(() => {
 
 	  {isLoading && (
 	  <div className="profile" align='center'style={{backgroundColor: 'blue', width: '100px', height: '100px'}}>
-	  <h3> Mohammad</h3>
+	  <img src={logo}/>
 	 </div>
 	  )}
 	  

@@ -15,13 +15,13 @@ export const Home = () => {
 
 
   
-<div className="home">
+<div className="home" style={{zIndex: '11' }}>
 
               
         <div class="elaf"  style={{
         backgroundColor: 'blue',
         width: '100px',
-        height: '100px', zIndex: '999999999989999999' }} >
+        height: '100px', zIndex: '20' }} >
         
         <h1>A Blue HA Blue HeadingA Blue HeadingA 
         Blue 

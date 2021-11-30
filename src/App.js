@@ -19,7 +19,7 @@ useEffect(() => {
    <div className="App">
 
 	  {isLoading && (
-	  <div align="center">
+	  <div justify-content: 'center';>
 	  <img src={logo}/>
 	 </div>
 	  )}

@@ -1,13 +1,11 @@
 import animation from '../../assets/img/team/Monir.png';
 import side1 from '../../assets/img/roadmap/Game.mp4';
+import Home from './pages/Home/Home';
+
   const Loading = () =>{
     return (
-    
- <h2>sadsadasdasdasdass
-      sadsadasdasdasdassadsadasdasdasdassadsadasdasdasdassadsadasdasdasdas
-      sadsadasdasdasdassadsadasdasdasdassadsadasdasdasdas
-      sadsadasdasdasdas
-      sadsadasdasdasdassadsadasdasdasdasadsadasdasdasdassadsadasdasdasdassadsadasdasdasdassadsadasdasdasdas </h2>
+    <Home /> 
+
    //  <div align='center'>
      //       <animation
        //         type="Hearts"

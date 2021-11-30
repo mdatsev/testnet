@@ -4,7 +4,7 @@ import side1 from '../../assets/img/roadmap/Game.mp4';
     return (
   
      <div className="home">
-            <side1
+            <animation
                 height={100}
                 width={100}
                 timeout={3000} //3 secs

@@ -18,7 +18,10 @@ export const Home = () => {
 <div className="home">
 
               
-        <div class="elaf"  style={{position: 'relative', zIndex: '999999999989999999' }} >
+        <div class="elaf"  style={{
+        backgroundColor: 'blue',
+        width: '100px',
+        height: '100px', zIndex: '999999999989999999' }} >
         
         <h1>A Blue HA Blue HeadingA Blue HeadingA 
         Blue 

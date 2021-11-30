@@ -1,7 +1,7 @@
 import './App.scss';
 import Home from './pages/Home/Home';
 import preLoading from './pages/Home/PreLoading';
-
+import React, {useState, useEffect} from 'react';
 
 function App() {
 const [isLoading, setIsLoading ] = useState(true);

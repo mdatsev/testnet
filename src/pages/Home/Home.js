@@ -13,7 +13,7 @@ import Footer from '../../components/Footer/Footer';
 export const Home = () => {
     return (
         
-        <div id="Preloading"/>
+        
         <div className="home">
             <NavBar />
             <Intro />

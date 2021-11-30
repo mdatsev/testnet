@@ -1,5 +1,5 @@
 import './Home.scss';
-
+import './HomeStyle.css'
 import NavBar from '../../components/NavBar/NavBar';
 import Intro from '../../components/Intro/Intro';
 import Slider from '../../components/Slider/Slider';

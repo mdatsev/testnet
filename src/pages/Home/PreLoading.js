@@ -4,7 +4,11 @@ import side1 from '../../assets/img/roadmap/Game.mp4';
   const Loading = () =>{
     return (
   
-    <img src={logo}/>
+   <div>
+                <section className="one-fourth" id="html">
+                    <img src={logo} />
+                </section>
+            </div>
   
     )
   }

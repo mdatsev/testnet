@@ -15,11 +15,11 @@ export const Home = () => {
 
 
           <div class="elaf"  style={{
-        backgroundColor: 'blue', zIndex: '2222222222220' }} >
+        backgroundColor: 'blue', zIndex: '2220' }} >
         
                 
 
-<div className="home" >
+<div className="home"  style={{zIndex: '2' }}>
 
             
             <NavBar />

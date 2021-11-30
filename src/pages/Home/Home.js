@@ -16,7 +16,8 @@ export const Home = () => {
 
         
         <div class="elaf">
-        <h1 style="color:blue;">A Blue HA Blue HeadingA Blue HeadingA 
+        
+        <h1  style={{color: "red"}} >A Blue HA Blue HeadingA Blue HeadingA 
         Blue 
         HeadingA Blue HeadingA Blue HeadingA Blue HeadingA Blue HeadingA Blue HeadingA Blue HeadingeadingA Blue HeadingA Blue HeadingA Blue HeadingA Blue HeadingA Blue HeadingA Blue HeadingA Blue HeadingA Blue HeadingA Blue Heading</h1>
         <div className="home">

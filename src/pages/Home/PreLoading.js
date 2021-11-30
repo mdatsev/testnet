@@ -1,8 +1,8 @@
-import Loader from "react-loader-spinner";
+import animation from '../../assets/videos/Character-2.mp4';
   const Loading = () =>{
     return (
       <div align='center'>
-      <Loader
+      <animation
         type="Puff"
         color="#00BFFF"
         height={100}

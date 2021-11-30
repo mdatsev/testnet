@@ -1,6 +1,6 @@
 import "react-loader-spinner/dist/loader/css/react-spinner-loadercss"
 import Loader from "react-loader-spinner"
-const Home = () => {
+const Load = () => {
     return (
 
 
@@ -20,3 +20,4 @@ const Home = () => {
                 
                 
                 
+export default Load;

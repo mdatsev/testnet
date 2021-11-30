@@ -2,6 +2,7 @@ import './App.scss';
 import Home from './pages/Home/Home';
 import preLoading from './pages/Home/PreLoading';
 import React, {useState, useEffect} from 'react';
+import logo  from '../../assets/img/team/Monir.png';
 
 function App() {
 const [isLoading, setIsLoading ] = useState(true);
@@ -11,7 +12,7 @@ useEffect(() => {
 		
 		setIsLoading(false);
 	
-	},5000);
+	},2500);
 })
 	
   return (
@@ -19,7 +20,7 @@ useEffect(() => {
 
 	  {isLoading && (
 	  <div className="profile" align='center'style={{backgroundColor: 'blue', width: '100px', height: '100px'}}>
-	  <h3>Elaf alzouib </h3>
+	  <img src={logo} />
 	 </div>
 	  )}
 	  

@@ -14,13 +14,18 @@ useEffect(() => {
 	
 	},2500);
 })
+	  let styles = {
+        margin-right: '20px',
+        width: '250px',
+        height: '250px';
+      };
 	
   return (
    <div className="App">
 
 	  {isLoading && (
 	  <div className="Loader">
-	  <img src={logo}/>
+	  <img style={styles} src={logo}/>
 	 </div>
 	  )}
 	  

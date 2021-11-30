@@ -16,12 +16,21 @@ useEffect(() => {
 	
   return (
    <div className="App">
-{isLoading==true?
-  <preLoading />:
- <Home />
+
+	  {isLoading && (
+	  <div className="profile">
+	  <h3>Elaf alzouib </h3>
+	  </div>
+	  )}
+	  
+	  
+	  {!isLoading && <Home />
+
+	 // {isLoading==true?
+  //<preLoading />:
+// <Home />
  
 }   
-
 </div>
   );
 }

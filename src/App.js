@@ -12,7 +12,7 @@ useEffect(() => {
 	},2500);
 })
   return (
-   <div>
+   <div className="App">
 {isLoading==true?
  <PreLoading />:
  <Home />

@@ -18,9 +18,9 @@ export const Home = () => {
 <div className="home">
 
               
-        <div class="elaf"  style={{color: "red" , position: 'relative', zIndex: '999999999989999999' }} >
+        <div class="elaf"  style={{position: 'relative', zIndex: '999999999989999999' }} >
         
-        <h1  style={{color: "red" , position: 'relative', zIndex: '999999999989999999' }} >A Blue HA Blue HeadingA Blue HeadingA 
+        <h1>A Blue HA Blue HeadingA Blue HeadingA 
         Blue 
         HeadingA Blue HeadingA Blue HeadingA Blue HeadingA Blue HeadingA Blue HeadingA Blue HeadingeadingA Blue HeadingA Blue HeadingA Blue HeadingA Blue HeadingA Blue HeadingA Blue HeadingA Blue HeadingA Blue HeadingA Blue Heading</h1>
       

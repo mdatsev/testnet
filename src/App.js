@@ -1,8 +1,10 @@
 import './App.scss';
 import Home from './pages/Home/Home';
+import preLoading from './pages/Home/PreLoading';
+
 
 function App() {
-[isLoading, setIsLoading ] = useState(true);
+const [isLoading, setIsLoading ] = useState(true);
 useEffect(() => {
 	
 	setTimeout(() => {
@@ -11,13 +13,14 @@ useEffect(() => {
 	
 	},2500);
 })
+	
   return (
    <div className="App">
 {isLoading==true?
- <PreLoading />:
+ <preLoading />:
  <Home />
-	   
-	   
+}   
+
 </div>
   );
 }

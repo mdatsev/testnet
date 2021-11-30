@@ -17,8 +17,8 @@ useEffect(() => {
   return (
    <div className="App">
 {isLoading==true?
-  <Home />:
-<preLoading />	  
+  <preLoading />:
+ <Home />
  
 }   
 

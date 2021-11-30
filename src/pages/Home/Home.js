@@ -17,8 +17,9 @@ export const Home = () => {
           <div class="elaf"  style={{
         backgroundColor: 'blue', zIndex: '20' }} >
         
-            
-<div className="home" >
+                 </div>
+
+<div className="home" style={{ zIndex: '1' }} >
 
             
             <NavBar />
@@ -32,10 +33,12 @@ export const Home = () => {
             <Footer />
             
        
-        </div>
+   
            </div>
       
     )
 }
 
+
 export default Home;
+

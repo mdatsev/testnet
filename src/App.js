@@ -1,5 +1,5 @@
 import './App.scss';
-import logo from './assets/img/team/Monir.png'
+import logo from './assets/videos/Loading.gif'
 import Home from './pages/Home/Home';
 import preLoading from './pages/Home/PreLoading';
 import React, {useState, useEffect} from 'react';

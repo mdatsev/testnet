@@ -14,22 +14,14 @@ export const Home = () => {
     return (
 
 
-  
-<div className="home" style={{zIndex: '11' }}>
-
-              
-        <div class="elaf"  style={{
+          <div class="elaf"  style={{
         backgroundColor: 'blue',
         width: '100px',
         height: '100px', zIndex: '222222220' }} >
         
-        <h1>A Blue HA Blue HeadingA Blue HeadingA 
-        Blue 
-        HeadingA Blue HeadingA Blue HeadingA Blue HeadingA Blue HeadingA Blue HeadingA Blue HeadingeadingA Blue HeadingA Blue HeadingA Blue HeadingA Blue HeadingA Blue HeadingA Blue HeadingA Blue HeadingA Blue HeadingA Blue Heading</h1>
-      
-
-
             
+<div className="home" style={{zIndex: '11' }}>
+
             
             <NavBar />
             <Intro />
@@ -41,9 +33,9 @@ export const Home = () => {
             <FaqComponent />
             <Footer />
             
-            </div>
+       
         </div>
-        
+           </div>
       
     )
 }

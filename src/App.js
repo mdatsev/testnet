@@ -21,7 +21,7 @@ useEffect(() => {
 	  {isLoading && (
 	  
 	  
-	<div style={{marginTop:'500px'}} align="center" className="center">
+	<div style={{marginTop:'auto'}} align="center" className="center">
 	  <img style={{width:'250px' , height:'250px'}} src={logo}/>
 	
 	  </div>

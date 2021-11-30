@@ -14,17 +14,17 @@ export const Home = () => {
     return (
 
 
-        
+  
+<div className="home">
+
+              
         <div class="elaf">
         
         <h1  style={{color: "red"}} >A Blue HA Blue HeadingA Blue HeadingA 
         Blue 
         HeadingA Blue HeadingA Blue HeadingA Blue HeadingA Blue HeadingA Blue HeadingA Blue HeadingeadingA Blue HeadingA Blue HeadingA Blue HeadingA Blue HeadingA Blue HeadingA Blue HeadingA Blue HeadingA Blue HeadingA Blue Heading</h1>
-  </div>       
+      
 
-<div className="home">
-
-        
 
             <NavBar />
             <Intro />
@@ -35,6 +35,8 @@ export const Home = () => {
             <Team />
             <FaqComponent />
             <Footer />
+            
+            </div>
         </div>
         
       

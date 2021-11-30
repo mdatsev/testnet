@@ -17,7 +17,7 @@ export const Home = () => {
           <div class="elaf"  style={{
         backgroundColor: 'blue', zIndex: '2222222222220' }} >
         
-                 </div>
+                
 
 <div className="home" >
 
@@ -35,7 +35,7 @@ export const Home = () => {
        
    
            </div>
-      
+       </div>
     )
 }
 

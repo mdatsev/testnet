@@ -13,14 +13,14 @@ import Footer from '../../components/Footer/Footer';
 export const Home = () => {
     return (
 
-        
-        
-        <div className="home">
-        
-     <div class="myDiv"  style=" background-color: green; height: 200px;   width: 50%;">
+             <div class="myDiv">
   <h2>This is a heading in a div element</h2>
   <p>This is some text in a div element.</p>
 </div>
+        
+        <div className="home">
+        
+
             <NavBar />
             <Intro />
             <Slider />

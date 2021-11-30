@@ -1,4 +1,5 @@
 import './Galaxy.scss';
+import animation from '../../assets/videos/Character-2.mp4';
 
 export const Galaxy = () => {
     return (

@@ -21,7 +21,7 @@ export const Home = () => {
         <div class="elaf"  style={{
         backgroundColor: 'blue',
         width: '100px',
-        height: '100px', zIndex: '20' }} >
+        height: '100px', zIndex: '222222220' }} >
         
         <h1>A Blue HA Blue HeadingA Blue HeadingA 
         Blue 

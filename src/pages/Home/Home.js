@@ -27,6 +27,8 @@ export const Home = () => {
 
 
             
+            
+            <NavBar />
             <Intro />
             <Slider />
             <Galaxy />

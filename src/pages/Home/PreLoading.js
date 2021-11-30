@@ -1,5 +1,6 @@
 import "react-loader-spinner/dist/loader/css/react-spinner-loadercss"
 import Loader from "react-loader-spinner"
+import React from 'react';
 const Load = () => {
     return (
 
@@ -11,6 +12,8 @@ const Load = () => {
         height ={100}
         width ={100}
         timeout={3000}
+/>
+            
         </div>
                 )
                 

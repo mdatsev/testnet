@@ -20,7 +20,7 @@ useEffect(() => {
 
 	  {isLoading && (
 	  <div class="Loader">
-	  <img src={logo}/>
+	  <img class="LoaderImg" src={logo}/>
 	 </div>
 	  )}
 	  

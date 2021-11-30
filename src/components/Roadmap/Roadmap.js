@@ -173,7 +173,7 @@ export const Roadmap = () => {
                 </div>
                 <div className="roadmap__content__item">
                     <span>Phase 3</span>
-                    <p className="title">Releasing of buff- Pussies, owls, and myths 30 000 soldiers</p>
+                    <p className="title">Releasing of buff- cats, owls, and myths 30 000 soldiers</p>
                     <p>Free minting for Buff Doge owners.<br/>Buff Doge owners will only be able to free mint two of each buff category.</p>
 
                     <div className="roadmap__content__item__sidePic top phase3">

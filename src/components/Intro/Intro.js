@@ -40,6 +40,13 @@ export const Intro = () => {
             <div className="intro__bottom">
                 <img alt="pic" src={bottom}></img>
             </div>
+            <div className="intro2__mintBtn">
+                <button>MINT</button>
+            </div>
+
+            <div className="intro2__bottom">
+                <img alt="pic" src={bottom}></img>
+            </div>
         </section>
     )
 }

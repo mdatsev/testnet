@@ -1,5 +1,5 @@
 import './Vision.scss';
-import animation from '../../assets/videos/Character-1.mp4';
+import animation from '../../assets/videos/Character 1.mp4';
 
 export const Vision = () => {
     return (

@@ -6,7 +6,7 @@ import video1 from '../../assets/videos/Roadmap/10.mp4';
 import video2 from '../../assets/videos/Roadmap/25.mp4';
 import video3 from '../../assets/videos/Roadmap/50.mp4';
 import video4 from '../../assets/videos/Roadmap/75.mp4';
-import video5 from '../../assets/videos/Roadmap/100 (1).mp4';
+import video5 from '../../assets/videos/Roadmap/100.mp4';
 
 import roadmap1 from '../../assets/img/roadmap/10.png';
 import roadmap2 from '../../assets/img/roadmap/25.png';
@@ -22,9 +22,9 @@ import photo2 from '../../assets/img/roadmap/Cat2.png';
 import photo3 from '../../assets/img/roadmap/Unicorn2.png';
 
 import side1 from '../../assets/img/roadmap/Game.mp4';
-import side2 from '../../assets/img/roadmap/Eth2.mp4';
+import side2 from '../../assets/img/roadmap/Eth.mp4';
 import side3 from '../../assets/img/roadmap/Brain.mp4';
-import side4 from '../../assets/img/roadmap/Vr Man.mp4';
+import side4 from '../../assets/img/roadmap/vr Man.mp4';
 import side5 from '../../assets/img/roadmap/Compass.mp4';
 
 export const Roadmap = () => {

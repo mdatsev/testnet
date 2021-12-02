@@ -5,6 +5,7 @@ import './Intro.scss';
 import intro_video from '../../assets/videos/web main page_1 (1).mp4';
 import mobile_video from '../../assets/videos/phone first page.mp4';
 import bottom from '../../assets/img/introBottom.svg';
+import bottom2 from '../../assets/img/introBottom.svg';
 
 export const Intro = () => {
     useEffect(() => {
@@ -38,14 +39,14 @@ export const Intro = () => {
             </div>
 
             <div className="intro__bottom">
-                <img alt="pic" src={bottom}></img>
+                <img alt="pic" src={bottom2}></img>
             </div>
-            <div className="intro2__mintBtn">
+            <div className="intro__mintBtn2">
                 <button>MINT</button>
             </div>
 
-            <div className="intro2__bottom">
-                <img alt="pic" src={bottom}></img>
+            <div className="intro__bottom2">
+                <img alt="pic" src={bottom2}></img>
             </div>
         </section>
     )

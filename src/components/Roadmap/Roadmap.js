@@ -174,7 +174,7 @@ export const Roadmap = () => {
                 <div className="roadmap__content__item">
                     <span>Phase 3</span>
                     <p className="title">Releasing of buff- Cats, Myths, and Owls.</p>
-                    <p>Every category will have its own traits. Having a Buff Doge is a privilege.<br/>You will be able to mint earlier and have an important voice to represent Doges inside and outside the community. All Buff Doge holders will be able to free mint two of each Buff category (6 free mints in total).</p>
+                    <p>Every category will have its own traits. Having a Buff Doge is a privilege.<br/>You will be able to mint earlier and have an important voice to represent Doges inside and outside the community.<br/> All Buff Doge holders will be able to free mint two of each Buff category (6 free mints in total).</p>
 
                     <div className="roadmap__content__item__sidePic top phase3">
                         <video autoPlay loop muted width="330" height="330" alt="pic" src={side2}></video>

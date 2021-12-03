@@ -18,7 +18,7 @@ export const FaqComponent = () => {
             },
             {
                 title: "What are my benefits as a holder?",
-                content: "Holders will automatically join Buffs private club where all the fun begins. And can free min 2 of each Buff category As a member, you will be part of all activities and future ideas. As a holder, you will have the ability to make a change on our journey by being part of taking decisions for every step we take together as a community."
+                content: "Holders will automatically join Buffs private club where all the fun begins. And can free min 2 of each Buff category as a holder, you will be part of all activities and future ideas. As a holder, you will have the ability to make a change on our journey by being part of taking decisions for every step we take together as a community."
             },
             {
                 title: "How can I own a buff doge?",

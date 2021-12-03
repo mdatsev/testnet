@@ -6,7 +6,7 @@ export const FaqComponent = () => {
         rows: [
             {
                 title: "What is buff doge nft?",
-                content: "Buff doges are a collection of 10,000 unique characters battling for their existence on the Ethereum blockchain."
+                content: "Buff doges are a collection of 5555 unique characters battling for their existence on the Ethereum blockchain."
             },
             {
                 title: "How much does a buff doge cost?",

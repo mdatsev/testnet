@@ -1,10 +1,10 @@
 import './Team.scss';
 
 import teamLogo from '../../assets/videos/Logo.mp4';
-import team1 from '../../assets/img/team/Alpha.png';
+import team1 from '../../assets/img/team/Dagmus.png';
 import team2 from '../../assets/img/team/Samer.png';
 import team3 from '../../assets/img/team/Rashid.png';
-import team4 from '../../assets/img/team/Dagmus.png';
+import team4 from '../../assets/img/team/Alpha.png';
 import team5 from '../../assets/img/team/Naji.png';
 import team6 from '../../assets/img/team/Monir.png';
 

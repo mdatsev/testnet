@@ -15,9 +15,9 @@ export const Team = () => {
     const info = [
         {
             image: team1,
-            name: 'alpha',
-            role: 'graphic & motion designer',
-            link: 'https://twitter.com/1Alpha00'
+            name: 'dagmus',
+            role: 'art director',
+            link: 'https://twitter.com/BuffDagmus'
         },
         {
             image: team2,
@@ -33,9 +33,9 @@ export const Team = () => {
         },
         {
             image: team4,
-            name: 'dagmus',
-            role: 'art director',
-            link: 'https://twitter.com/BuffDagmus'
+            name: 'alpha',
+            role: 'designer',
+            link: 'https://twitter.com/1Alpha00'
         },
         {
             image: team5,

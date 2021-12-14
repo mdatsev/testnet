@@ -124,15 +124,30 @@ async function openModal() {
   hideLoading();
   const modalContent = modal.querySelector('.nft-modal-content');
   modalContent.innerHTML = `
-    <input value=1 min=1 max=${maxValue} type="number" id="nft-mint-amount-input">
+    <div id="nft-mint-amount-input-container">
+      <svg id="nft-mint-amount-input-arrow-left"  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" viewBox="0 0 490 490" style="enable-background:new 0 0 490 490;" xml:space="preserve"> <g> <path d="M52.8,311.3c-12.8-12.8-12.8-33.4,0-46.2c6.4-6.4,14.7-9.6,23.1-9.6s16.7,3.2,23.1,9.6l113.4,113.4V32.7   c0-18,14.6-32.7,32.7-32.7c18,0,32.7,14.6,32.7,32.7v345.8L391,265.1c12.8-12.8,33.4-12.8,46.2,0c12.8,12.8,12.8,33.4,0,46.2   L268.1,480.4c-6.1,6.1-14.4,9.6-23.1,9.6c-8.7,0-17-3.4-23.1-9.6L52.8,311.3z"/> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> </svg>
+      <svg id="nft-mint-amount-input-arrow-right" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" viewBox="0 0 490 490" style="enable-background:new 0 0 490 490;" xml:space="preserve"> <g> <path d="M52.8,311.3c-12.8-12.8-12.8-33.4,0-46.2c6.4-6.4,14.7-9.6,23.1-9.6s16.7,3.2,23.1,9.6l113.4,113.4V32.7   c0-18,14.6-32.7,32.7-32.7c18,0,32.7,14.6,32.7,32.7v345.8L391,265.1c12.8-12.8,33.4-12.8,46.2,0c12.8,12.8,12.8,33.4,0,46.2   L268.1,480.4c-6.1,6.1-14.4,9.6-23.1,9.6c-8.7,0-17-3.4-23.1-9.6L52.8,311.3z"/> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> </svg>
+      <input value=1 min=1 max=${maxValue} type="number" id="nft-mint-amount-input">
+    </div>
     <button id="nft-mint-button">Mint</button>
   `;
+  const mintAmountInput = modalContent.querySelector('#nft-mint-amount-input');
+
+  modalContent.querySelector('#nft-mint-amount-input-arrow-left').addEventListener('click', () => {
+    if (mintAmountInput.value > mintAmountInput.min) {
+      mintAmountInput.value--;
+    }
+  });
+  modalContent.querySelector('#nft-mint-amount-input-arrow-right').addEventListener('click', () => {
+    if (mintAmountInput.value < mintAmountInput.max) {
+      mintAmountInput.value++;
+    }
+  });
 
   const mintButton = modalContent.querySelector('#nft-mint-button');
   mintButton.addEventListener('click', async () => {
     mintButton.disabled = true;
 
-    const mintAmountInput = modalContent.querySelector('#nft-mint-amount-input');
     const mintAmount = +mintAmountInput.value;
 
     const iface = new ethers.utils.Interface(config.contractABI);

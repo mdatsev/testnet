@@ -134,12 +134,12 @@ async function openModal() {
   const mintAmountInput = modalContent.querySelector('#nft-mint-amount-input');
 
   modalContent.querySelector('#nft-mint-amount-input-arrow-left').addEventListener('click', () => {
-    if (mintAmountInput.value > mintAmountInput.min) {
+    if (+mintAmountInput.value > +mintAmountInput.min) {
       mintAmountInput.value--;
     }
   });
   modalContent.querySelector('#nft-mint-amount-input-arrow-right').addEventListener('click', () => {
-    if (mintAmountInput.value < mintAmountInput.max) {
+    if (+mintAmountInput.value < +mintAmountInput.max) {
       mintAmountInput.value++;
     }
   });

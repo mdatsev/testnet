@@ -10,6 +10,8 @@ import instagramIcon from '../../assets/img/icons/instagram.svg';
 
 import pdf from '../../assets/Buff_Paper.pdf';
 
+import walletIntegration from '../walletIntegration';
+
 export const NavBar = () => {
     const [active, setActive] = useState('active');
     const [lastScroll, setLastScroll] = useState(0);
@@ -110,7 +112,7 @@ export const NavBar = () => {
                         <span></span>
                         <img alt="img" src={openseaIcon}></img>
                     </a>
-                    <button className="navBar__walletBtn">CONNECT WALLET</button>
+                    <button className="navBar__walletBtn" onClick={walletIntegration.verifyWalletConnection}>CONNECT WALLET</button>
                 </div>
             </div>
         </header>

@@ -6,7 +6,7 @@ import intro_video from '../../assets/videos/web main page_1 (1).mp4';
 import mobile_video from '../../assets/videos/phone first page.mp4';
 import bottom from '../../assets/img/introBottom.svg';
 
-import walletIntegration from './walletIntegration';
+import walletIntegration from '../walletIntegration';
 
 export const Intro = () => {
     useEffect(() => {
@@ -37,10 +37,6 @@ export const Intro = () => {
                 </video>
             </div>
 
-            <div className="intro__mintAmountInput">
-                <input type="number" min="1" defaultValue="1"></input>
-            </div>
-
             <div className="intro__mintBtn" onClick={walletIntegration.mintButtonOnClick}>
                 <button>MINT</button>
             </div>
@@ -49,16 +45,9 @@ export const Intro = () => {
                 <img alt="pic" src={bottom}></img>
             </div>
 
-            <div class="nft-modal">
-              <div class="nft-modal-overlay nft-js-modal-overlay"></div>
-                <div class="nft-modal-container">
-                <div class="nft-modal-header">
-                    <div class="nft-modal-title">Complete checkout</div>
-                    <div class="nft-modal-close nft-js-modal-close">&#10005;</div>
-                </div>
-                <div class="nft-modal-content">
-                </div>
-              </div>
+            <div className="nft-modal">
+                <div className="nft-modal-overlay nft-js-modal-overlay"></div>
+                <div className="nft-modal-container"></div>
             </div>
 
         </section>

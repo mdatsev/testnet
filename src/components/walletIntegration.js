@@ -1,7 +1,7 @@
 import { ethers } from 'ethers';
 
 const config = {
-  contractAddress: '<PUT MAINNET ADDRESS HERE>',
+  contractAddress: '<0xFe5737bE28af719A9fcD8abf37F52234dD6cBB8F>',
   networkName: 'Ethereum Mainnet',
   etherScanUrl: 'https://etherscan.io/tx/',
   openSeaUrl: 'https://opensea.io/account?search[sortBy]=CREATED_DATE&search[sortAscending]=false',

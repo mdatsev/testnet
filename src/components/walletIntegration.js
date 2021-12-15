@@ -1,7 +1,7 @@
 import { ethers } from 'ethers';
 
 const config = {
-  contractAddress: '0x5ea7ce7Dea15a674c38D398C774dE9d6E1CEA539',
+  contractAddress: '0x7EA71b8C3f1fbB2EC9762CEd93f955d5fc512b92',
   // networkName: 'Ethereum Mainnet',
   networkName: 'Ethereum Testnet Rinkeby',
   // etherScanUrl: 'https://etherscan.io/tx/',

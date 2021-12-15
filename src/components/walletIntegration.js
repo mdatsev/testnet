@@ -1,16 +1,12 @@
 import { ethers } from 'ethers';
 
 const config = {
-  contractAddress: '0x9Cd00B4E5C567aF84fAB0A95da8EEFB8A46C4124',
-  // networkName: 'Ethereum Mainnet',
-  networkName: 'Ethereum Testnet Rinkeby',
-  // etherScanUrl: 'https://etherscan.io/tx/',
-  etherScanUrl: 'https://rinkeby.etherscan.io/tx/',
-  // openSeaUrl: 'https://opensea.io/account?search[sortBy]=CREATED_DATE&search[sortAscending]=false',
-  openSeaUrl: 'https://testnets.opensea.io/account?search[sortBy]=CREATED_DATE&search[sortAscending]=false',
+  contractAddress: '<PUT MAINNET ADDRESS HERE>',
+  networkName: 'Ethereum Mainnet',
+  etherScanUrl: 'https://etherscan.io/tx/',
+  openSeaUrl: 'https://opensea.io/account?search[sortBy]=CREATED_DATE&search[sortAscending]=false',
   networkParams: {
-    // chainId: '0x1'
-    chainId: '0x4'
+    chainId: '0x1'
   },
   contractABI: [
     "function maxTokensPerWhitelistedAddress() public view returns (uint256)",
@@ -117,8 +113,11 @@ async function openModal() {
   ) {
     maxValue = (await contract.maxTokensPerMint());
   } else {
-    maxValue = (await contract.maxTokensPerWhitelistedAddress())
-      .sub(await contract.presaleWhitelistPurchased(window.ethereum.selectedAddress));
+    const maxPerWhitelistedAddress = await contract.maxTokensPerWhitelistedAddress();
+    maxValue = maxPerWhitelistedAddress.sub(await contract.presaleWhitelistPurchased(window.ethereum.selectedAddress));
+    if (maxValue.lte(0)) {
+      return displayError(`Sorry, you have already minted ${maxPerWhitelistedAddress} NFTs. Please wait for the public sale to mint more.`);
+    }
   }
   
   hideLoading();

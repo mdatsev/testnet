@@ -100,7 +100,7 @@ export const NavBar = () => {
                         <span></span>
                         <img alt="img" src={instagramIcon}></img>
                     </a>
-                    <a href="https://twitter.com/BuffDogeNFT" target="_blank">
+                    <a href="https://twitter.com/BuffdogeNFTs" target="_blank">
                         <span></span>
                         <img alt="img" src={twitterIcon}></img>
                     </a>

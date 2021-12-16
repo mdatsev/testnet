@@ -46,7 +46,7 @@ export const Team = () => {
         {
             image: team6,
             name: 'monir',
-            role: 'designer',
+            role: 'Community Manager',
             link: 'https://twitter.com/BuffMonir'
         },
     ];

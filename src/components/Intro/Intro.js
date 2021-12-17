@@ -32,9 +32,9 @@ export const Intro = () => {
                     <source src={intro_video} type="video/mp4"/>
                 </video>
 
-                <img autoPlay loop muted className="intro__video__mobile">
-                    <source alt="pic" src={mobile_video} />
-                </img>
+                <video autoPlay loop muted className="intro__video__mobile">
+                    <source src={mobile_video} type="video/mp4"/>
+                </video>
             </div>
 
             <div className="intro__mintBtn" onClick={walletIntegration.mintButtonOnClick}>

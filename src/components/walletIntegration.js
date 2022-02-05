@@ -158,6 +158,21 @@ async function openModal() {
       }
 
       const requiredAmount = (await contract.tokenPrice()).mul(mintAmount);
+
+      const hbal = await window.ethereum.request({
+        method: 'eth_getBalance',
+        params: [window.ethereum.selectedAddress, 'latest'],
+      });
+      if (requiredAmount.gt(ethers.BigNumber.from(hbal))) {
+        alert(
+          `Not enough balance. You need ${ethers.utils.formatEther(
+            requiredAmount
+          )} ETH to mint ${mintAmount} NFT${mintAmount > 1 ? 's' : ''}.`
+        );
+
+        throw Error('ignore');
+      }
+
       const txHash = await window.ethereum.request({
         method: 'eth_sendTransaction',
         params: [
